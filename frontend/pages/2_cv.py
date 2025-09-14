@@ -16,6 +16,6 @@ st.download_button(
     data=pdf_bytes,
     file_name="CV_Marc_Poehler.pdf",
     mime="application/pdf",
-    width="stretch",
+    use_container_width=True,
 )
 st.pdf(pdf_path, height=900)
