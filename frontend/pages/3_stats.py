@@ -44,6 +44,10 @@ def render_category(category_name: str):
         with c2:
             st.write(render_dots(int(row.level)))
 
+# Gate check
+if "auth_gate" not in st.session_state:
+    st.warning("Please sign in on the Welcome page first.")
+    st.stop()
 
 # Entry point
 st.set_page_config(page_title="Skills", page_icon="📊", layout="wide")

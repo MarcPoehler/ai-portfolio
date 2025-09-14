@@ -79,6 +79,10 @@ def process_prompt(prompt: str):
     st.session_state.pending_in_progress = False
     st.rerun()
 
+# Gate check
+if "auth_gate" not in st.session_state:
+    st.warning("Please sign in on the Welcome page first.")
+    st.stop()
 
 # Entry point
 st.set_page_config(page_title="Chat with me!", page_icon="💬", layout="wide")
