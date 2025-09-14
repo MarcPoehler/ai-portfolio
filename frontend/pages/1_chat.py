@@ -26,14 +26,15 @@ USER_AVATAR = "🧑‍💻"
 
 # Helper Functions
 def full_width_columns(n: int):
-    """Create columns that stretch the available width.
+    """Create evenly spaced columns using Streamlit's native layout.
 
+    Streamlit's st.columns does not support a custom width parameter; all columns auto-stretch.
     """
-    return st.columns(n, gap="small", width="stretch")
+    return st.columns(n, gap="small")
 
 def stretch_button(label: str, **kwargs):
-    """Button that stretches container width."""
-    return st.button(label, width="stretch", **kwargs)
+    """Full-width button helper (uses container width)."""
+    return st.button(label, use_container_width=True, **kwargs)
 
 def send_sync(prompt: str) -> dict:
     """Send prompt; gracefully handle PII blocking (400)."""
