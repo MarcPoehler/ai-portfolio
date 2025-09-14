@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "name": "AI & LLM Engineering",
+      "skills": [
+        { "name": "Prompting & Agentic Workflows", "level": 5 },
+        { "name": "LLMOps", "level": 4 },
+        { "name": "Structured Outputs & Guardrails", "level": 4 },
+        { "name": "Vector Databases & Retrieval", "level": 3 },
+        { "name": "Model Fine-Tuning", "level": 3 }
+      ]
+    },
+    {
+      "name": "Software & Backend Engineering",
+      "skills": [
+        { "name": "Python", "level": 5 },
+        { "name": "Clean Architecture", "level": 5 },
+        { "name": "FastAPI", "level": 4 },
+        { "name": "Data Handling & JSON Schemas", "level": 5 },
+        { "name": "Observability & Logging", "level": 4 }
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "skills": [
+        { "name": "Teamwork & Collaboration", "level": 5 },
+        { "name": "Onboarding & Knowledge Sharing", "level": 5 },
+        { "name": "Change Management & Adoption", "level": 4 },
+        { "name": "Problem-Solving & Adaptability", "level": 5 },
+        { "name": "Communication Skills", "level": 4 }
+      ]
+    }
+  ]
+}

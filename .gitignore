@@ -1,0 +1,92 @@
+# ---- Python bytecode / caches ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Distribution / build
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.envrc
+
+# Pytest & coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Mypy / type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Logs / runtime
+*.log
+logs/
+
+# OS / Editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment & secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Caches (general)
+.cache/
+
+# Node / front-end (if added later)
+node_modules/
+
+# Images / generated assets (keep real data dir tracked except large temp)
+# Add patterns here if you later generate derived images
+
+# Lock files (optional – uncomment if you want to ignore)
+# Pipenv / Poetry
+# Pipfile.lock
+# poetry.lock
+
+# Backup files
+*~
+
+# Mac specific
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+
+# PyInstaller
+*.manifest
+*.spec
+
+# FastAPI / Uvicorn reload artefacts
+.reload*
+
+# VS Code Python settings
+.python-version
+
+# Coverage artifacts variations
+coverage/*.json
+
+# End of file

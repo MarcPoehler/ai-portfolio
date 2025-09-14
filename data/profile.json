@@ -1,0 +1,84 @@
+{
+  "stand": "2025-09",
+  "person": {
+    "name": "Marc Pöhler",
+    "age": 28,
+    "location": "Düsseldorf, Germany and St. Gallen, Switzerland",
+    "short_bio": "AI Software Engineer with a journey from education technology to building AI-powered products at scale."
+  },
+  "contact": {
+    "phone": "+49 1578 9281 878",
+    "email": "marcpoehler@aol.com",
+    "address": "Guisanstrasse 94, 9010 St. Gallen",
+    "linkedin": "https://linkedin.com/in/marc-poehler"
+  },
+  "skills": {
+    "technical": [
+      "AI & LLMOps",
+      "Agentic Frameworks",
+      "Prototyping",
+      "OpenAI API",
+      "GCP",
+      "Python",
+      "Backend"
+    ],
+    "soft": [
+      "Teamwork",
+      "Onboarding"
+    ]
+  },
+  "highlights": [
+    "Drove efficiency gains for writers and designers by accelerating content creation and reducing editing time.",
+    "Reference-guided graphics tool: enabled 1 designer to match the output of ~7 without AI."
+  ],
+  "experience": [
+    {
+      "company": "simpleclub GmbH",
+      "role": "AI Software Engineer",
+      "years": "2024 – Present",
+      "summary": "AI Platform Team — designing, prototyping, and delivering AI-powered solutions."
+    },
+    {
+      "company": "simpleclub GmbH",
+      "role": "Education Project Specialist",
+      "years": "2022 – 2024",
+      "summary": "Connector between Education and Tech teams; drove early AI adoption and workflows."
+    },
+    {
+      "company": "simpleclub GmbH",
+      "role": "Content Architect",
+      "years": "2020 – 2022",
+      "summary": "Shaped content strategy, quality standards, and CMS adoption."
+    },
+    {
+      "company": "simpleclub GmbH",
+      "role": "Content Writer",
+      "years": "2018 – 2020",
+      "summary": "Chemistry & Biology scripts, exercises, curriculum planning."
+    }
+  ],
+  "education": [
+    "B.Sc. Informatics (incomplete) — HHU Düsseldorf (2021–2022)",
+    "B.Sc. Chemistry (incomplete) — HHU Düsseldorf (2017–2021)",
+    "B.Sc. Biology (incomplete) — HHU Düsseldorf (2016–2017)",
+    "Abitur — Marienschule Mönchengladbach (Final Grade: 2.5, 2008–2015)"
+  ],
+  "languages": {
+    "German": "Native",
+    "English": "Fluent"
+  },
+  "interests": [
+    "Handball",
+    "Football",
+    "Gaming",
+    "E-Sports",
+    "Squash"
+  ],
+  "references": [
+    {
+      "name": "Viktor Malyi",
+      "role": "Team Lead, AI Platform, simpleclub GmbH",
+      "email": "viktor.malyi@simpleclub.com"
+    }
+  ]
+}
