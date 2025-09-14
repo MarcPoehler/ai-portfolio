@@ -94,10 +94,6 @@ If decoding fails, raw content is wrapped into a fallback `Answer` with empty ar
 - Multi-model fallback or streaming responses
 
 ---
-## ♻️ Rotating the Exposed Key
-An OpenAI key was once committed. Rotate it in the OpenAI dashboard, update environment vars, and ensure the old key is revoked.
-
----
 ## 📄 License
 MIT (see `LICENSE`).
 
