@@ -24,7 +24,7 @@ if "auth_gate" not in st.session_state:
                 errors.append("Invalid password")
                 st.error("Invalid password")
             elif not errors:
-                st.session_state.auth_gate = {"user": input_user, "password": "***"}
+                st.session_state.auth_gate = {"user": input_user, "password": input_password}
                 st.rerun()
     if "auth_gate" not in st.session_state:
         st.stop()
